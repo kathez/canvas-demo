@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         return {
             left: randomInt(0, canvas.width),
             top: randomInt(0, canvas.height),
-            width: 10,
-            height: 10,
+            width: randomInt(0, 50),
+            height: randomInt(0, 100),
             fillStyle: randomColor(),
             xVelocity: randomInt(1, 4),
             yVelocity: randomInt(1,4)
